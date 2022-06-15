@@ -1,0 +1,16 @@
+syntax = "proto3";
+
+package sample;
+
+option go_package = "github.com/yagihash/protosample";
+
+message MyMessage {
+  string foo = 1;
+  string bar = 2;
+}
+
+message MyInternalMessage {
+  string inFoo = 1;
+  string inBar = 2;
+}
+
